@@ -1,11 +1,11 @@
 pipeline {
 
     agent any
-/*
+
 	tools {
-        maven "maven3"
+        maven "MAVEN3.9"
     }
-*/
+
     environment {
         // used my credentials and used old image only as per the project 
         registry = "ravikumarsrk/vprofileapp"
